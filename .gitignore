@@ -1,1 +1,12 @@
 node_modules
+
+# Create directories if they don't exist
+mkdir -p public/images
+mkdir -p public/videos
+
+# Move all images to public/images
+mv photos/*.png public/images/
+mv photos/*.jpg public/images/
+
+# Move videos to public/videos
+mv photos/*.mp4 public/videos/
