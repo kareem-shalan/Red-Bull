@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductGallery from '../components/ProductGallery';
 import ProductDetails from '../components/ProductDetails';
-import backgroundImage from '../../photos/redbull2.png';
+import backgroundImage from '../../public/images/redbull2.png';
 const Products = () => {
   return (
     <div className="min-h-screen bg-black pt-20">

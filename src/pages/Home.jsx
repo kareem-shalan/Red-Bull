@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import ProductGallery from '../components/ProductGallery';
 import ProductDetails from '../components/ProductDetails';
-import bgImage from '../../photos/redbull6.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
@@ -11,6 +10,7 @@ const Home = () => {
     const videoRef = useRef(null);
     const [isVideoEnded, setIsVideoEnded] = useState(false);
     const [isMuted, setIsMuted] = useState(false);
+    const bgImage = '/images/redbull6.png';
 
     useEffect(() => {
         AOS.init({
@@ -68,9 +68,6 @@ const Home = () => {
         }
     };
 
-
-
-
     return (
         <div className="min-h-screen bg-black">
             {/* Hero Section with Video */}
@@ -82,7 +79,7 @@ const Home = () => {
                         onEnded={handleVideoEnded}
                         playsInline
                         autoPlay
-                        src="/photos/Dragons.mp4"
+                        src="/videos/Dragons.mp4"
                     />
                 </div>
 

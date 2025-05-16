@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const ProductDetails = () => {
   const products = [
     {
-      Image: '../../photos/pure.jpg',
+      Image: '../../public/images/pure.jpg',
       id: 1,
       name: 'Red Bull Energy Drink',
       description: 'The original Red Bull Energy Drink is the perfect companion whenever you need wings. The formula contains high-quality ingredients: Caffeine, Taurine, B-Group Vitamins, Sugars, Alpine Water.',
@@ -30,7 +30,7 @@ const ProductDetails = () => {
       }
     },
     {
-      Image: '../../photos/freeSuger.png',
+      Image: '../../public/images/freeSuger.png',
       id: 2,
       name: 'Red Bull Sugar Free',
       description: 'Red Bull Sugar Free provides similar benefits to Red Bull Energy Drink, but with zero sugar. Perfect for those who want wings without the sugar.',
@@ -56,7 +56,7 @@ const ProductDetails = () => {
       }
     },
     {
-      Image: '../../photos/watermallon.png',
+      Image: '../../public/images/watermallon.png',
       id: 3,
       name: 'Red Bull Zero',
       description: 'Red Bull Zero offers the wings of Red Bull Energy Drink with zero sugar and zero calories. The perfect choice for a sugar-free and calorie-free energy boost.',

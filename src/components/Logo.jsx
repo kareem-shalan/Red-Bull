@@ -6,7 +6,7 @@ const Logo = () => {
       {/* Logo Image */}
       <div className="w-12 h-12 relative">
         <img 
-          src="/photos/logo.png" 
+          src="/public/images/logo.png" 
           alt="Red Bull Logo" 
           className="w-full h-full object-contain"
         />
